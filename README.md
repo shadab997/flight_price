@@ -52,4 +52,4 @@ Following are some of the feature selection methods,
 * Fit the model
 * Check best paramters and best score
 
-Finally deploy the model using Flask.
+Finally deployed the Flask App (model) on Azure App Service using GitHub Action.
