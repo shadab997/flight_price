@@ -16,7 +16,7 @@ Therefore, we have to convert this datatype into timestamp so as to use this col
 For this we require pandas to_datetime to convert object data type to datetime dtype.
 .dt.day method will extract only day of that date.
 .dt.month method will extract only month of that date.
-
+## Exploratory data analysis
 ## Handling Categorical Data
 One can find many ways to handle categorical data. Some of them categorical data are,
 1. Nominal data 
@@ -28,7 +28,7 @@ One can find many ways to handle categorical data. Some of them categorical data
 Finding out the best feature which will contribute and have good relation with target variable.
 Following are some of the feature selection methods,
 1. heatmap
-2. feature_importance
+2. feature_importance using ExtraTreesRegressor.
 3. SelectKBest
 
 ## Fitting model using Random Forest
@@ -51,3 +51,5 @@ Following are some of the feature selection methods,
 * Assign hyperparameters in form of dictionery
 * Fit the model
 * Check best paramters and best score
+
+Finally deploy the model using Flask.
