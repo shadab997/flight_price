@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open(r"C:\Users\shada\Desktop\Files\IITB\Placement\Projects\flightfare\flight_rf.pkl", "rb"))
+model = pickle.load(open(r"flight_rf.pkl", "rb"))
 
 
 
